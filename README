@@ -1,0 +1,20 @@
+django-generic's purpose is to provide a repository of useful abstract base
+classes (ABC's) and model template inheritence (MTI's).
+
+If all of that goes over our head, read up on it in the django docs and also at
+http://blog.howiworkdaily.com/post/2008/jun/17/django-tutorial-abstract-base-classes-vs-model-inh/ 
+
+Suggested models include:
+
+= DONE =
+
+= NOT DONE =
+* Events
+* Menus (Restaurant-type)
+* Blog
+* People
+* Places
+
+
+If you would like to see one here that isn't on the list, feel free to drop a
+comment and we'll see what we can do.
