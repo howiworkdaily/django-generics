@@ -24,7 +24,7 @@ class ContentItemBase(models.Model):
 
     class Meta:
         try:
-           abstract = settings.CONTENTITEMBASE_ABSTRACT
+           abstract = getattr(settings, 'CONTENTITEMBASE_ABSTRACT', True)
         except:
            abstract = True
     
