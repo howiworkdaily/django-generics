@@ -23,10 +23,8 @@ class ContentItemBase(models.Model):
     publish_on = models.DateTimeField(_('publish on'), )
 
     class Meta:
-        try:
-           abstract = getattr(settings, 'CONTENTITEMBASE_ABSTRACT', True)
-        except:
-           abstract = True
+        abstract = getattr(settings, 'CONTENTITEMBASE_ABSTRACT', True)
+
     
     def pre_save(self):
         if self.id is None:
