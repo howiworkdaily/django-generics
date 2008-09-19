@@ -1,3 +1,6 @@
+*.db
+tmp
+*.swo
+*.swp
 *.pyc
 *.bak
-
