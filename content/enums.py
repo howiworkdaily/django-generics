@@ -1,0 +1,14 @@
+
+STATUS_DRAFT = '1'
+STATUS_PUBLIC = '2'
+DEFAULT_CONTENT_STATUS = '1'
+CONTENT_STATUS_CHOICES = (
+('1','Draft'),
+('2','Public'),
+)
+
+DEFAULT_COMMENT_STATUS = '0'
+COMMENT_STATUS_CHOICES = (
+('0','Open'),
+('1','Closed'),
+)
