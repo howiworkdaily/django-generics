@@ -9,8 +9,8 @@ import settings
 
 class ContentItemBase(models.Model):
     """
-    Defines fields you find one most content items.
-    
+    Defines fields you find on most content items.
+
     """
 
     title = models.CharField(_('title'), max_length=100)
@@ -40,7 +40,7 @@ class Entry(models.Model):
     """
     A generic entry model denormalized for performance and useful for providing aggregation among various content types.
 
-    """	
+    """
     content_type = models.ForeignKey(ContentType)
     object_id = models.PositiveIntegerField()
     object = generic.GenericForeignKey()
